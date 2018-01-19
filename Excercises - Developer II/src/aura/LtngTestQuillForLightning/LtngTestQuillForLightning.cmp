@@ -1,0 +1,7 @@
+<!-- LtngTestQuillForLightning -->
+<aura:component >
+	<ltng:require scripts="{! $Resource.quill }" afterScriptsLoaded="{! c.scriptLoaded }" />
+    
+    <div aura:id="editor" />
+    
+</aura:component>
